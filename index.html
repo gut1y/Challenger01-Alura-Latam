@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="normalice.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chewy&display=swap"
+      rel="stylesheet"
+    />
+    <title>Encriptador de Texto</title>
+  </head>
+
+  <body>
+    <header>
+      <img src="img/Vector.png" alt="" />
+      <h1 class="titulo-principal">Encriptador de texto --One Alura--</h1>
+    </header>
+    <main>
+      <section class="entrada-texto">
+        <span id="error"></span> 
+        <textarea
+          class="input-text"
+          id=""
+          placeholder="Ingrese el texto aqui"
+        ></textarea>
+        <div class="contenedor-botones">
+          <p class="advertencia">Solo letra minuscula y sin acento</p>
+          <div class="sector-de-botones">
+            <button type="button" class="btn-encriptar">Encriptar</button>
+            <button type="button" class="btn-desencriptar">Desencriptar</button>
+          </div>
+        </div>
+      </section>
+      <section class="salida-de-texto">
+        <div id="buscador-de-texto">
+          <img src="img/muñeco.png" alt="Buscador de texto" id="imagen" />
+          <h2>Ningun mensaje fue encontrado</h2>
+          <p>Esperando mensaje secreto</p>
+        </div>
+        <div id="salida" class="invisible">
+          <textarea class="input-text-area" readonly></textarea>
+          <button type="button" class="btnCopiar">Copiar</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="contacto">
+        <p class="desaFoot">Desarrolado por Nelson Gustavo Quispe</p>
+        <p>© ONE- Oracle Next Education - Alura Latam - 2022</p>
+        <ul class="imgCentrar">
+          <img src="img/github.png" alt="GitHub" /><a
+            href="https://github.com/duarteandresj"
+            >GitHub</a
+          >
+          <img src="img/kisspng-linkedin-logo-computer-icons-business-symbol-linkedin-icon-5ab1765660baa8.1191823015215796063962.png" alt=""><a href="https://www.linkedin.com/in/nelson-gustavo-quispe-2877071b2/">Linkedin</a>
+        </ul>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
